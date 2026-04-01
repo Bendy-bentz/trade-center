@@ -1,0 +1,19 @@
+# 1. LE PLUS IMPORTANT : Ignorer les images uploadées (Véhicules, Photos de profil)
+/uploads/
+
+# 2. Ignorer les librairies externes téléchargées
+/includes/PHPMailer-master/
+/includes/stripe-php-master/
+/vendor/
+
+# 3. Ignorer UNIQUEMENT les fichiers de mots de passe (MAIS PAS config.php !)
+config/database.php
+config/payment_config.php
+
+# 4. Dossiers système et inutiles
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+node_modules/

@@ -1,0 +1,5 @@
+2026-03-10 05:37:09 [error] MonCashGateway: Erreur d'authentification MonCash: {"timestamp":1773121029484,"status":403,"error":"Forbidden","path":"/Moncash-middleware/rs/v1/oauth/token"}
+2026-03-10 05:47:49 [error] MonCashGateway: Erreur d'authentification MonCash: {"timestamp":1773121669476,"status":403,"error":"Forbidden","path":"/Moncash-middleware/rs/v1/oauth/token"}
+2026-03-10 05:48:24 [info] NatCashGateway: Création paiement NatCash: orderId=PAY-20260310-7584, response=
+2026-03-10 05:49:09 [error] MonCashGateway: Erreur d'authentification MonCash: {"timestamp":1773121749553,"status":403,"error":"Forbidden","path":"/Moncash-middleware/rs/v1/oauth/token"}
+2026-03-10 05:58:15 [info] MonCashGateway: SIMULATION - Création paiement MonCash: orderId=PAY-20260310-5846, amount=2400, phone=50948360967
