@@ -1,0 +1,31 @@
+# Fichiers sensibles
+config/config.php
+
+# Dossiers générés automatiquement
+vendor/
+node_modules/
+
+# Fichiers système (macOS / Windows)
+.DS_Store
+Thumbs.db
+
+# Fichiers d'IDE (VS Code, PhpStorm)
+.idea/
+.vscode/
+# 1. On ignore les UPLOADS des utilisateurs (Véhicules, Photos de profil)
+/uploads/
+
+# 2. On ignore les librairies installées manuellement (Stripe, PHPMailer)
+/includes/PHPMailer-master/
+/includes/stripe-php-master/
+/vendor/
+
+# 3. On ignore les fichiers de configuration qui contiennent des mots de passe
+# (Très important pour la sécurité !)
+/config/database.php
+/config/payment_config.php
+
+# 4. Fichiers système inutiles
+.DS_Store
+Thumbs.db
+desktop.ini
