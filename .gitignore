@@ -1,0 +1,26 @@
+# Fichiers sensibles (clés API, mots de passe BDD)
+config/config.php
+.env
+
+# Dossiers lourds (Images et uploads)
+# On garde la structure mais pas le contenu lourd
+assets/image/*
+uploads/vehicules/*
+
+# Mais on garde les fichiers .gitkeep (pour ne pas perdre les dossiers vides)
+!.gitkeep
+
+# Bibliothèques externes (Vendor et Stripe)
+# Il ne faut JAMAIS mettre le dossier stripe-php-master sur GitHub
+vendor/
+stripe-php-master/
+PHPMailer-master/
+node_modules/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers d'IDE
+.idea/
+.vscode/
